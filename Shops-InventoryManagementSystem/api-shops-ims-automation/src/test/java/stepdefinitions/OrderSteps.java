@@ -14,10 +14,7 @@ public class OrderSteps {
 
     private ProductRequest product;
     private OrderRequest orderRequest;
-    private Response unauthResponse;
     private String productId;
-    private Response stockResponse;
-    private Response unauthStockResponse;
     private final SharedContext context;
 
     public OrderSteps(SharedContext context) {
